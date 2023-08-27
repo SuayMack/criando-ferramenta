@@ -9,5 +9,8 @@
     "start": "node ./ferramenta.js"
   },
   "author": "priscilaCS",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
