@@ -3,10 +3,10 @@
   "name": "projeto-individual",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "ferramenta.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./ferramenta.js"
+    "start": "node ferramenta.js"
   },
   "author": "priscilaCS",
   "license": "MIT",
