@@ -8,8 +8,6 @@ const propriedades = [];
 function propriedadePrompt() {
   // Pede ao usuário para inserir uma propriedade de CSS e converte a entrada para maiúsculas.
   let entrada = (rl.question('Digite uma propriedade de CSS (ou "SAIR" para encerrar): ')).toUpperCase();
-
-  // Verifica se a entrada é "SAIR". Se for, chama a função para ordenar e imprimir as propriedades.
   if (entrada === 'SAIR') {
     ordenarEImprimirPropriedades();
     //  Tratamento de erro: Verifica se a entrada é uma string vazia após remover espaços em branco. Se for, exibe uma mensagem de erro.
