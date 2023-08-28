@@ -20,6 +20,52 @@ Esse projeto foi desenvolvido com a seguintes tecnologia:
 - [readline-sync](https://www.npmjs.com/package/readline-sync)
 
 
+## 📍 Rodando localmente
+
+***Certifique-se de ter o Node.js instalado em seu sistema.***
+ - [NodeJS - Download](https://nodejs.org/pt-br/download)
+
+***Clone o projeto***
+
+ - com HTTPS:
+```bash
+  git clone https://github.com/SuayMack/criando-ferramenta.git
+```
+- com chave SSH:
+```bash
+  git clone git@github.com:SuayMack/criando-ferramenta.git
+```
+
+***Entre no diretório do projeto***
+
+```bash
+  cd criando-ferramenta
+```
+
+***Abra com code (opcional)***
+
+```bash
+  cd code .
+```
+
+***Instale as dependências***
+
+```bash
+  npm install
+```
+
+***Inicie o servidor***
+
+```bash
+  npm run start
+```
+*ou*
+```bash
+  npm start
+```
+
+#### 🎉🎉🎉 É isso, aproveite o projeto.
+
 ## 📄 Documentação da API
 
 #### Retorna todas as propriedades CSS em ordem alfabética
@@ -92,53 +138,7 @@ Simula o erro tratado de entrada vazia.
 Esse exemplo ilustra como os erros tratados são ativados durante a execução do código.
 
 
-## 📍 Rodando localmente
-
-***Certifique-se de ter o Node.js instalado em seu sistema.***
- - [NodeJS - Download](https://nodejs.org/pt-br/download)
-
-***Clone o projeto***
-
- - com HTTPS:
-```bash
-  git clone https://github.com/SuayMack/criando-ferramenta.git
-```
-- com chave SSH:
-```bash
-  git clone git@github.com:SuayMack/criando-ferramenta.git
-```
-
-***Entre no diretório do projeto***
-
-```bash
-  cd criando-ferramenta
-```
-
-***Abra com code (opcional)***
-
-```bash
-  cd code .
-```
-
-***Instale as dependências***
-
-```bash
-  npm install
-```
-
-***Inicie o servidor***
-
-```bash
-  npm run start
-```
-*ou*
-```bash
-  npm start
-```
-
-#### 🎉🎉🎉 É isso, aproveite o projeto.
-
-Feito com 💜 por PriscilaCS
+*Feito com 💜 por PriscilaCS*
 
 
 ## 📖 Referência
