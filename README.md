@@ -77,7 +77,7 @@ sair
 
 ####  Exemplo de Entrada Vazia:
 
-1. Quando o programa solicitar a inserção de uma propriedade de CSS, simplesmente pressione "Enter" sem digitar nada.
+1. Quando o programa solicitar a inserção de uma propriedade de CSS, simplesmente pressione "Enter" sem digitar nada ou durante a execução do programa, é pressionado "Ctrl+C" no terminal ou feche o terminal diretamente.
 
 ```
 Digite uma propriedade de CSS (ou "SAIR" para encerrar):
@@ -89,20 +89,7 @@ Digite uma propriedade de CSS (ou "SAIR" para encerrar):
 
 Simula o erro tratado de entrada vazia.
 
-### Exemplo de Cancelamento:
-
-1. Durante a execução do programa, pressione "Ctrl+C" no terminal ou feche o terminal diretamente.
-
-```
-Digite uma propriedade de CSS (ou "SAIR" para encerrar):
-
-^C
-Programa encerrado pelo usuário.
-```
-
-Isso simula o erro tratado de cancelamento.
-
-Esses exemplos ilustram como os erros tratados são ativados durante a execução do código.
+Esse exemplo ilustra como os erros tratados são ativados durante a execução do código.
 
 
 ## 📍 Rodando localmente

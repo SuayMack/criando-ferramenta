@@ -46,12 +46,5 @@ function ordenarEImprimirPropriedades() {
   }
 }
 
-// Tratamento de Cancelamento: Se o usuário pressionar Ctrl+C ou fechar o terminal durante a interação
-//permite que o usuário encerre o programa de maneira mais controlada.
-process.on('SIGINT', () => {
-  console.log('\nPrograma encerrado pelo usuário.');
-  process.exit(0);
-});
-
 // Inicia o processo de inserção de propriedades chamando a função propriedadePrompt().
 propriedadePrompt()
