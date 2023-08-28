@@ -77,7 +77,7 @@ sair
 
 ####  Exemplo de Entrada Vazia:
 
-1. Quando o programa solicitar a inserção de uma propriedade de CSS, simplesmente pressione "Enter" sem digitar nada ou durante a execução do programa, é pressionado "Ctrl+C" no terminal ou feche o terminal diretamente.
+*Quando o programa solicitar a inserção de uma propriedade de CSS, simplesmente pressione "Enter" sem digitar nada ou durante a execução do programa, é pressionado "Ctrl+C" no terminal ou feche o terminal diretamente.*
 
 ```
 Digite uma propriedade de CSS (ou "SAIR" para encerrar):
