@@ -12,15 +12,17 @@ function propriedadePrompt() {
   // Verifica se a entrada é "SAIR". Se for, chama a função para ordenar e imprimir as propriedades.
   if (entrada === 'SAIR') {
     ordenarEImprimirPropriedades();
-    //  Tratamento de erro: Verifica se a entrada é uma string vazia após remover espaços em branco. Se for, exibe uma mensagem de erro.
-  } else if (entrada.trim() === '') {
+  }
+  // Verifica se a entrada é uma string vazia após remover espaços em branco ou 
+  // Se o usuário apertar ctrl + c
+  //exibe uma mensagem de erro.
+  else if (entrada.trim() === '') {
     console.log('Entrada vazia. Por favor, insira uma propriedade válida ou digite "SAIR".');
-    // Chama a função propriedadePrompt() novamente para obter uma nova entrada válida.
     propriedadePrompt();
-    // Se a entrada não for "SAIR" e não for vazia, adiciona a propriedade ao array 'propriedades'.
-  } else {
+  }
+  // Se a entrada não for "SAIR" e não for vazia, adiciona a propriedade ao array 'propriedades'.
+  else {
     propriedades.push(entrada);
-    // Chama a função propriedadePrompt() novamente para obter a próxima entrada.
     propriedadePrompt();
   }
 }
