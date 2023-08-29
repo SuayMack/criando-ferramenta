@@ -9,6 +9,8 @@ function propriedadePrompt() {
   // Pede ao usuário para inserir uma propriedade de CSS e converte a entrada para maiúsculas.
   let entrada = (rl.question('Digite uma propriedade de CSS (ou "SAIR" para encerrar): ')).toUpperCase();
 
+  // Verifica se a entrada é um número.
+  const naoENumero = isNaN(parseInt(entrada));
   // Verifica se a entrada é "SAIR". Se for, chama a função para ordenar e imprimir as propriedades.
   if (entrada === 'SAIR') {
     ordenarEImprimirPropriedades();
@@ -18,6 +20,11 @@ function propriedadePrompt() {
   //exibe uma mensagem de erro.
   else if (entrada.trim() === '') {
     console.log('Entrada vazia. Por favor, insira uma propriedade válida ou digite "SAIR".');
+    propriedadePrompt();
+  }
+  //Se a entrada for um numero, exibe uma mensagem de erro.
+  else if (!naoENumero) {
+    console.log('Entrada inválida. Por favor, insira uma propriedade válida ou digite "SAIR".');
     propriedadePrompt();
   }
   // Se a entrada não for "SAIR" e não for vazia, adiciona a propriedade ao array 'propriedades'.
