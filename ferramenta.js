@@ -18,16 +18,11 @@ function propriedadePrompt() {
   // Verifica se a entrada é uma string vazia após remover espaços em branco ou 
   // Se o usuário apertar ctrl + c
   //exibe uma mensagem de erro.
-  else if (entrada.trim() === '') {
-    console.log('Entrada vazia. Por favor, insira uma propriedade válida ou digite "SAIR".');
+  else if (entrada.trim() === '' || !naoENumero) {
+    console.log('Entrada vazia ou inválida. Por favor, insira uma propriedade válida ou digite "SAIR".');
     propriedadePrompt();
   }
-  //Se a entrada for um numero, exibe uma mensagem de erro.
-  else if (!naoENumero) {
-    console.log('Entrada inválida. Por favor, insira uma propriedade válida ou digite "SAIR".');
-    propriedadePrompt();
-  }
-  // Se a entrada não for "SAIR" e não for vazia, adiciona a propriedade ao array 'propriedades'.
+  // Se a entrada não for "SAIR" e não for vazia ou inválida, adiciona a propriedade ao array 'propriedades'.
   else {
     propriedades.push(entrada);
     propriedadePrompt();
