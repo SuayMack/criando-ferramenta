@@ -31,13 +31,18 @@ function propriedadePrompt() {
 
 // Função para ordenar e imprimir as propriedades inseridas.
 function ordenarEImprimirPropriedades() {
+  // Contador de propriedades
+  const semPropriedades = propriedades.length ;
+
+  const propriedadesOrdenadas = propriedades.sort();
+
   // Tatamento de erro: Verifica se não há propriedades inseridas. Se não houver, exibe uma mensagem informando.
-  if (propriedades.length === 0) {
+  if (semPropriedades === 0) {
     console.log('Nenhuma propriedade foi inserida.');
   // Caso contrário, tenta ordenar as propriedades alfabeticamente e as imprime.
   } else {
     try {
-      propriedades.sort(); // Ordena as propriedades em ordem alfabética.
+      propriedadesOrdenadas; // Ordena as propriedades em ordem alfabética.
       console.log('\nPropriedades ordenadas:');
       // Itera pelo array 'propriedades' e imprime cada propriedade.
       propriedades.forEach((propriedade) => {
