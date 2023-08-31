@@ -45,7 +45,7 @@ Esse projeto foi desenvolvido com a seguintes tecnologia:
 ***Abra com code (opcional)***
 
 ```bash
-  cd code .
+  code .
 ```
 
 ***Instale as dependências***
