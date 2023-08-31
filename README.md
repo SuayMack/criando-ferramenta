@@ -16,7 +16,7 @@ Assim, com essa ferramenta é possível inserir uma lista de propriedades CSS, o
 
 Esse projeto foi desenvolvido com a seguintes tecnologia:
 
-- [Node.js](https://nodejs.org/en/)
+- [Node.js](https://nodejs.org/en/) (versão v20.5.1)
 - [readline-sync](https://www.npmjs.com/package/readline-sync)
 
 
