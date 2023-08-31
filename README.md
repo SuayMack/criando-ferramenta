@@ -143,4 +143,5 @@ Esse exemplo ilustra como os erros tratados são ativados durante a execução d
 
 ## 📖 Referência
 
- - [NodeJS - documentação](https://nodejs.org/en/docs)
+  - [NodeJS - documentação](https://nodejs.org/en/docs)
+  - [Readline-sync - documentação](https://www.npmjs.com/package/readline-sync)
