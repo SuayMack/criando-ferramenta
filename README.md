@@ -140,6 +140,8 @@ Esse exemplo ilustra como os erros tratados são ativados durante a execução d
 
 *Feito com 💜 por PriscilaCS*
 
+## 📖 Licença
+- [MIT](./LICENSE)
 
 ## 📖 Referência
 
